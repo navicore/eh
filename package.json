@@ -1,0 +1,9 @@
+{
+  "name": "eh",
+  "version": "1.0.0",
+  "description": "",
+  "main": "runme.js",
+  "dependencies": {
+    "azure-event-hubs": "0.1.1"
+  }
+}
