@@ -9,8 +9,8 @@ const DATA = '{"msg":"hi", "id": 123}';
 async function send(data, key) {
   console.log("sending key " + key)
   const eventData = { body: data, partitionKey: key};
-  //const delivery = await client.send(eventData);
-  const delivery = await client.send(eventData,1);
+  const delivery = await client.send(eventData);
+  //const delivery = await client.send(eventData,1);
   console.log("message sent successfully.");
   process.exit(1)
 }
