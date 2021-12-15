@@ -4,6 +4,6 @@
   "description": "",
   "main": "runme.js",
   "dependencies": {
-    "azure-event-hubs": "0.1.1"
+    "azure-event-hubs": "0.2.11"
   }
 }
